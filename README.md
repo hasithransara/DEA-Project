@@ -32,10 +32,6 @@ EventHub is a production-grade web application for discovering events and bookin
 2.  Run the EventSystemApplication class.
 3.  The application will start on http://localhost:8080.
 
-### Step 3: First Time Login
-1.  Go to http://localhost:8080/register.
-2.  Create a new account.
-3.  The first user is automatically assigned the *ADMIN* role (based on current logic) or you can manually update the database role if needed.
 
 ##  Key Features
 * *Public:* View events, search by keyword, filter by category (Concerts, Sports, etc.).
