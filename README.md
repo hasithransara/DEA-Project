@@ -3,7 +3,7 @@
 ##  Overview
 EventHub is a production-grade web application for discovering events and booking tickets. It features a secure user authentication system, dynamic event management (with categories, venues, and tiered pricing), and an automated email notification system for e-tickets.
 
-## 🛠 Tech Stack
+##  Tech Stack
 * *Backend:* Java 17+, Spring Boot (Web, Security, Data JPA, Mail)
 * *Frontend:* Thymeleaf, Bootstrap 5, JavaScript
 * *Database:* MySQL
