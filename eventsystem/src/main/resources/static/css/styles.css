@@ -1,0 +1,27 @@
+.card-img-top {
+    height: 200px; /* Fixed height for all event images */
+    object-fit: cover; /* Crop image to fit without distortion */
+}
+.hero-section {
+    background: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+    color: white;
+    padding: 60px 0;
+    margin-bottom: 30px;
+}
+.event-card {
+    transition: transform 0.3s;
+}
+.event-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+body {
+    /* Replace 'background.jpg' with your actual image file name inside static/images/ */
+    background-image: url('../images/event1.jpeg');
+
+    /* These lines make it look good */
+    background-size: cover;       /* Stretches image to fit screen */
+    background-repeat: no-repeat; /* Prevents tiling */
+    background-attachment: fixed; /* Keeps image fixed when scrolling */
+    background-position: center;  /* Centers the image */
+}
